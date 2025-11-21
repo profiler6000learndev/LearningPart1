@@ -1,4 +1,7 @@
-﻿using System.Text;
+﻿using frontend.views;
+using frontend.viewmodels;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,8 +19,12 @@ namespace frontend;
 /// </summary>
 public partial class MainWindow : Window
 {
-    public MainWindow()
+    
+
+public MainWindow()
     {
+       
         InitializeComponent();
+        
     }
 }
