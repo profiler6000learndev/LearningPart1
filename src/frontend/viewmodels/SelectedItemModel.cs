@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace frontend.viewmodels
 {
-    class SelectedItemModel
+    class SelectedItemModel : BaseModel
     {
     }
 }
