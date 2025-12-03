@@ -29,10 +29,21 @@ namespace frontend.views
         public LeftMm()
         {
             InitializeComponent();
-            bttn_1.Content = ViewModel.ButtonTextItem[0];
+            // Set DataContext to ViewModel for data binding(Neues Spiel Lade.usw...)
+            btn_NewGame.Content = ViewModel.ButtonTextItem[0];
             bttn_2.Content = ViewModel.ButtonTextItem[1];
             bttn_3.Content = ViewModel.ButtonTextItem[2];
             bttn_4.Content = ViewModel.ButtonTextItem[3];
+
+        }
+
+        private void btn_NewGame_Click(object sender, RoutedEventArgs e)
+        {
+            GameWindow gameWindow = new GameWindow(this);
+            gameWindow.ShowDialog();
+
+
+
 
         }
     }
