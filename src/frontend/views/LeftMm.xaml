@@ -10,8 +10,8 @@
     <Grid>
         <Border Background="#FF2D2D30" />
         <StackPanel>
-                <Button x:Name="bttn_1" Margin="10" Height="40" Foreground="black" />
-                <Button x:Name="bttn_2" Margin="10" Height="40"/>
+            <Button x:Name="btn_NewGame" Margin="10" Height="40" Click="btn_NewGame_Click" />   
+            <Button x:Name="bttn_2" Margin="10" Height="40"/>
                 <Button x:Name="bttn_3" Margin="10" Height="40"/>
                 <Button x:Name="bttn_4" Margin="10" Height="40"/>
             </StackPanel>
